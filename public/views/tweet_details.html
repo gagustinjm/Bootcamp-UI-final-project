@@ -1,0 +1,13 @@
+<ul class="row  list-unstyled">
+	<div id="tweetDetails" class="col-md-12">
+		<img id="userImage" ng-src="{{tweetToShow.user.profile_image_url_https}}">
+		<h4><strong> {{tweetToShow.user.name}} </strong></h4>
+		<h5>@{{tweetToShow.user.screen_name}}</h5>
+		<h1> {{tweetToShow.text}} </h1><br>
+		<img id="mediaImage" ng-src="{{tweetToShow.entities.media[0].media_url}}" ng-show="{{tweetToShow.entities.media[0]}}">
+		<h5> {{tweetToShow.aDate | date:'HH:mm - d MMM. y'}} </h5>
+		<div>
+			<h5> <strong>{{tweetToShow.retweet_count}}</strong> Retweets | <strong> {{tweetToShow.favorite_count}} </strong> Favorites</h5>
+		</div>
+	</div>
+</ul>

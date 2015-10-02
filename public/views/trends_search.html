@@ -1,0 +1,16 @@
+<ul class="list-unstyled tweets-container">
+	<li class="row single-tweet" ng-repeat="sTrend in searchedTrends">		
+		<div class="col-md-2 col-sm-4 col-xs-3">
+			<img id="userImage" ng-src='{{sTrend.user.profile_image_url}}' alt="User image">
+			<a id="linkTweetDetails" ng-href="#/tweet_details/{{sTrend.id}}">Show tweet details</a><br><br>
+		</div>
+		<div id="tweetData" class="col-md-10 col-sm-8 col-xs-9">
+			<h4>{{sTrend.user.name}}
+				<small>@{{sTrend.user.screen_name}}</small>				
+				<small> - {{sTrend.tweetTime}} </small>
+			</h4>
+			<p class="text-justify">{{sTrend.text}}</p>
+			<img id="mediaImage" ng-src="{{sTrend.entities.media[0].media_url}}" ng-show="{{sTrend.entities.media[0]}}">
+		</div>		
+	</li>	
+</ul>

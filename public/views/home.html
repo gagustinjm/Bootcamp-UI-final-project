@@ -1,0 +1,16 @@
+<ul class="list-unstyled tweets-container">
+	<li class="row single-tweet" ng-repeat="tweet in tweets">		
+		<div class="col-md-2 col-sm-4 col-xs-3">
+			<img id="userImage" ng-src='{{tweet.user.profile_image_url}}' alt="User image">
+			<a id="linkTweetDetails" ng-href="#/tweet_details/{{tweet.id}}">Show tweet details</a>
+		</div>
+		<div id="tweetData" class="col-md-10 col-sm-8 col-xs-9">
+			<h4>{{tweet.user.name}}
+				<small>@{{tweet.user.screen_name}}</small>
+				<small> - {{tweet.tweetTime}} </small>
+			</h4>
+			<p class="text-justify">{{tweet.text}}</p>
+			<img id="mediaImage" ng-src='{{tweet.entities.media[0].media_url}}' ng-show="{{tweet.entities.media[0]}}" alt="Tweet Image">
+		</div>		
+	</li>	
+</ul>
