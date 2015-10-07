@@ -1,0 +1,9 @@
+<table class="table table-hover">
+	<tbody>
+		<tr ng-repeat="trend in trends">
+			<td class="col-md-10 col-xs-10"> <strong>{{trend.name}}</strong> </td>
+			<td class="col-md-2 col-xs-2"> <a ng-href="#/trends_search/{{trend.query}}"><img id="trendDetailsImg" 
+				src="imgs/trend_detail.png"></a></td>	
+		</tr>	
+	</tbody>
+</table>

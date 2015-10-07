@@ -1,0 +1,108 @@
+body {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    margin-left: 20%;
+    margin-right: 20%  
+}
+
+main {
+    background: #fff;
+    -webkit-border-radius: 3px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 3px;
+    -moz-background-clip: padding;
+    border-radius: 3px;
+    background-clip: padding-box;
+    -webkit-box-shadow: 0 1px 2px #aaaaaa;
+    -moz-box-shadow: 0 1px 2px #aaaaaa;
+    box-shadow: 0 1px 2px #aaaaaa;
+    padding: 10px;
+    position: relative
+}
+
+a, p {
+    display: block
+}
+
+.tweets-container { 
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px    
+}
+
+.single-tweet{       
+    border-top: 1px solid #aaaaaa;
+    margin: 15px
+}
+
+.single-tweet h4 {
+    font-weight: bold
+}
+
+.single-tweet p {
+    font: 18px "Lucida Grande", Helvetica, Arial, sans-serif
+}
+
+#userImage {
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+
+#mediaImage {
+    border-radius: 10px;
+    width: 100%
+}
+
+#webHeader {
+    background-color: #4b9fdc;
+    margin-top: 5px;    
+    padding: 15px;
+    text-align: center	
+}
+
+#mainMenu {
+	background-color: #404040;
+    padding: 5px;
+    text-align: center
+}
+
+#twitterBird {
+    height: 45px;
+	margin: 2px;    
+	width: 50px
+}
+
+#webHeader h3 {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 15px
+}
+
+#mainMenu a {
+	color: #7f7f7f;
+	font-weight: bold;
+    width: 140px
+}
+
+.imgMainMenu {    
+    height: 55px;
+	width: 60px
+}
+
+#imgContainer {
+    padding: 15px
+}
+
+td img {
+    margin-left: 25px;
+    height: 40px;
+    width: 50px
+}
+
+.blockedName {
+    margin-top: 5px;
+    padding: 20px
+}

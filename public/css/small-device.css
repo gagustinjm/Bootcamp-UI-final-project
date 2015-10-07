@@ -1,0 +1,133 @@
+@media only screen and (max-device-width: 640px) {
+
+	body {
+	    font: 8px "Lucida Grande", Helvetica, Arial, sans-serif;
+	    margin-left: 0;
+	    margin-right: 0  
+	}
+
+	#twitterBird {
+	    height: 20px;
+		margin: 2px;    
+		width: 20px
+	}	
+
+	#webHeader {
+	    background-color: #4b9fdc;
+	    margin-top: 1px;    
+	    padding: 5px;
+	    text-align: center	
+	}
+
+	#webHeader h3 {
+	    color: #FFF;
+	    font-size: 10px;
+	    font-weight: bold;
+	    margin-left: 5px;
+	    margin-top: 5px
+	}
+
+	#webHeader li {
+		display: block
+	}
+
+	.imgMainMenu {    
+	    height: 20px;
+		width: 20px
+	}
+
+	#mainMenu a {
+		color: #7f7f7f;
+		font-weight: bold;
+		height: auto;
+		margin-right: 10px;
+		padding: 0;
+	    width: 100%
+	}
+
+	.single-tweet{       
+	    border-top: 1px solid #aaaaaa;
+	    margin: 5px
+	}
+
+	.blockedName {
+		font-size: 10px;
+		height: auto;	
+	    margin-top: 1px;
+	    padding: 5px;
+	    width: 100%
+
+	}
+
+	#newBlockedUser{
+		height: 30px;		
+		margin-bottom: 10px;
+		width: 50px
+	}
+
+	#trash {
+		height: 20px;
+		width: 25px;
+	}
+
+	#userImage {
+	    border-radius: 2px;
+	    height: 25px;
+	    margin-bottom: 5px;
+	    margin-left: 0;
+	    margin-right: 10px;
+	    margin-top: 10px;
+		position: relative;
+	    width: 25px
+	}
+
+	#linkTweetDetails {
+		font-size: 6px;
+		margin: 0;
+		width: 100%
+	}
+
+	#tweetData {
+		margin-left: 0;
+		padding-left: 0
+	}
+
+	#tweetData h4 {
+		font-size: 8px
+	}
+
+	#tweetData small {
+		font-size: 5px;
+	}
+
+	#tweetData p {
+		font-size: 8px;
+	}
+
+	#trendDetailsImg {
+		height: 25px;
+		width: 25px
+	}
+
+	#tweetDetails h4 {
+		font-size: 10px;
+		margin: 0
+	}
+
+	#tweetDetails h5 {
+		font-size: 7px;
+		margin: 0
+	}
+
+	#tweetDetails h1 {
+		font-size: 12px;
+		margin-bottom: 5px;
+		margin-top: 5px;
+		text-align:justify
+	}
+
+	#mediaImage {
+		margin-bottom: 10px;
+	}
+
+}

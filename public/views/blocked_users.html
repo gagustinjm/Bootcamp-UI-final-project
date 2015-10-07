@@ -1,0 +1,20 @@
+<div>
+	<form class="row" name="blockUserForm" ng-submit="editForm.$valid">
+		<div class="col-md-10 col-xs-9">		
+			<input class="blockedName form-control" type="text" placeholder="@userName"required/>
+		</div>
+		<div class="col-md-2 col-xs-3">
+			<a href="" type="submit" ><img id="newBlockedUser" src="imgs/btn-block-user.png"></a>
+		</div>		
+	</form>	
+
+	<table class="table table-hover">
+		<tbody ng-repeat="user in users">
+			<td class="blockedName col-md-10"> {{user}} </td>
+			<td class="col-md-2"> <a href="" type="submit" ><img id="trash" src="imgs/trash.png"></a> </td>		
+		</tbody>
+	</table>
+</div>
+
+
+

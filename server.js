@@ -47,7 +47,7 @@ app.get('/myplace', function(req, res) {
   })
 });
 
-//http://localhost:3000/trends?id=23424747
+//http://localhost:3000/trends?id=466861
 app.get('/trends', function(req, res) {
   T.get('/trends/place', req.query, function(err, data, response) {
       return res.json(data);
